@@ -1,0 +1,25 @@
+.counter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 10rem;
+  height: 4rem;
+  background-color: hsl(228deg, 33%, 97%);
+  border-radius: 1rem;
+}
+.counter__subcontainer {
+  width: 33%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counter__count {
+  color: hsl(238deg, 40%, 52%);
+  font-weight: 500;
+  line-height: 1.9rem;
+}
+.counter__operator-container {
+  border: none;
+  background-color: inherit;
+}/*# sourceMappingURL=counter.css.map */

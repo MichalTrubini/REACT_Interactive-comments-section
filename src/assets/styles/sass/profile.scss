@@ -1,0 +1,19 @@
+@import 'variables';
+
+.profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.6rem;
+
+    &__image {
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+
+    &__name {
+        color: $Dark-blue;
+        font-weight: 500;
+        line-height: 1.9rem;
+    }
+}

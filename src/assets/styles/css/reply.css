@@ -1,0 +1,13 @@
+.reply {
+  color: hsl(238deg, 40%, 52%);
+  font-weight: 500;
+  line-height: 2.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.reply:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=reply.css.map */

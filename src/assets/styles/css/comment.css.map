@@ -1,0 +1,1 @@
+{"version":3,"sources":["../sass/comment.scss","../sass/_variables.scss","comment.css"],"names":[],"mappings":"AAEA;EACI,gBAAA;EACA,YAAA;EACA,qCCKI;EDJJ,kBAAA;EACA,eAAA;AEDJ;AFGI;EACI,aAAA;EACA,8BAAA;AEDR;AFII;EACI,aAAA;EACA,mBAAA;EACA,WAAA;EACA,qBAAA;AEFR;AFKI;EACI,qBAAA;AEHR;AFMI;EACI,4BCnBO;EDoBP,gBAAA;EACA,mBAAA;AEJR","file":"comment.css"}

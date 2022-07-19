@@ -1,0 +1,31 @@
+@import 'variables';
+
+.comment {
+    max-width: 73rem;
+    width: 91.5%;
+    background-color: $White;
+    border-radius: 8px;
+    padding: 1.6rem;
+
+    &__interaction {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__user-profile {
+        display: flex;
+        align-items: center;
+        gap: 1.6rem;
+        margin-bottom: 1.6rem;
+    }
+
+    &__user-comment {
+        margin-bottom: 1.6rem;
+    }
+
+    &__paragraph {
+        color:$Grayish-Blue;
+        font-weight: 400;
+        line-height: 2.4rem;
+    }
+}

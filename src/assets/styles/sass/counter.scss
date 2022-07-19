@@ -1,0 +1,30 @@
+@import 'variables';
+
+.counter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10rem;
+    height: 4rem;
+    background-color: $Very-light-gray;
+    border-radius: 1rem;
+
+    &__subcontainer {
+        width: 33%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__count {
+        color: $Moderate-blue;
+        font-weight: 500;
+        line-height: 1.9rem;
+    }
+
+    &__operator-container {
+        border: none;
+        background-color: inherit;
+    }
+}
