@@ -2,25 +2,29 @@ import Counter from "./UI/Counter";
 import Reply from "./UI/Reply";
 
 import '../assets/styles/css/comment.css'
-import Profile from "./UI/Profile";
-import ContributionDate from "./UI/ContributionDate";
-import CommentContent from "./UI/CommentContent";
+import Profile from '../components/partials/Profile'
+import ContributionDate from "../components/partials/ContributionDate";
+import CommentContent from "./partials/CommentContent";
 
-const Comment = () => {
+const Comment = (props) => {
+
     return (
         <div className="comment">
             <div className="comment__user">
                 <div className="comment__user-profile">
-                    <Profile/>
-                    <ContributionDate/>
+                    <Profile profileImage={props.profileImage} profileName={props.profileName} />
+                    <ContributionDate date={props.date}/>
                 </div>
                 <div className="comment__user-comment">
-                    <CommentContent/>
+                    <CommentContent comment={props.comment}/>
                 </div>
             </div>
             <div className="comment__interaction">
-                <Counter />
+                <Counter count={props.count}/>
                 <Reply/>
+            </div>
+            <div className="comment__reply-container">
+                
             </div>
         </div>
     )

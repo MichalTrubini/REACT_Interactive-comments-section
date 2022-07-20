@@ -1,8 +1,8 @@
 import '../../assets/styles/css/contribution-date.css'
 
-const ContributionDate = () => {
+const ContributionDate = (props) => {
     return (
-        <p className="contribution-date"> 1 month ago</p>
+        <p className="contribution-date">{props.date}</p>
     )
 }
 
