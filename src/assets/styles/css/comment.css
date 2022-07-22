@@ -22,4 +22,40 @@
   color: hsl(211deg, 10%, 45%);
   font-weight: 400;
   line-height: 2.4rem;
+}
+.comment__new {
+  display: grid;
+  grid-template-areas: "grid1 grid1" "grid2 grid3";
+}
+.comment__input {
+  grid-area: grid1;
+  border: 1px solid #E9EBF0;
+  border-radius: 8px;
+  background: inherit;
+  padding: 1.2rem 2.4rem;
+  min-height: 9.6rem;
+  font-weight: 400;
+  color: hsl(211deg, 10%, 45%);
+  margin-bottom: 1.6rem;
+}
+.comment__input:focus {
+  outline: 1px solid #5357B6;
+}
+.comment__user-image {
+  grid-area: grid2;
+  width: 3.2rem;
+  align-self: center;
+}
+.comment__submit {
+  grid-area: grid3;
+  color: hsl(0deg, 0%, 100%);
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 2.4rem;
+  width: 10.4rem;
+  height: 4.8rem;
+  border: none;
+  background: #5357B6;
+  border-radius: 8px;
+  justify-self: right;
 }/*# sourceMappingURL=comment.css.map */

@@ -2,5 +2,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 3.2rem;
+  gap: 1.6rem;
+  padding: 3.2rem 0;
+}
+.comments__none {
+  display: none;
+}
+.comments__reply {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+  margin-left: 1.6rem;
+  border-left: 2px solid #E9EBF0;
 }/*# sourceMappingURL=comments.css.map */

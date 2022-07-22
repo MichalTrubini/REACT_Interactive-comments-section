@@ -2,6 +2,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1.6rem;
+    padding: 3.2rem 0;
 
-    padding-top: 3.2rem;
+    &__none {
+        display: none;
+    }
+
+    &__reply {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.6rem;
+        margin-left: 1.6rem;
+        border-left: 2px solid #E9EBF0;
+    }
 }

@@ -9,7 +9,7 @@ import CommentContent from "./partials/CommentContent";
 const Comment = (props) => {
 
     return (
-        <div className="comment">
+        <div className={props.className}>
             <div className="comment__user">
                 <div className="comment__user-profile">
                     <Profile profileImage={props.profileImage} profileName={props.profileName} />
@@ -20,11 +20,11 @@ const Comment = (props) => {
                 </div>
             </div>
             <div className="comment__interaction">
-                <Counter count={props.count}/>
+                <Counter count={props.count} id={props.id}/>
                 <Reply/>
             </div>
             <div className="comment__reply-container">
-                
+
             </div>
         </div>
     )

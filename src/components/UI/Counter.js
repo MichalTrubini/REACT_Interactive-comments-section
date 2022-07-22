@@ -7,20 +7,20 @@ import '../../assets/styles/css/counter.css'
 
 const Counter = (props) => {
 
-    const [count, setCount] = useState(0);
+    const [count, setCount] = useState('');
 
     const CountSubtractHandler = () => {
-        if (count > 0) setCount(preValue => preValue - 1)
+        setCount(-1)
     }
 
     const CountAddHandler = () => {
-        setCount(preValue => preValue + 1)
+        setCount(1)
     }
 
     console.log(count);
 
     return (
-        <div className="counter">
+        <div className="counter" id={props.id}>
             <button className="counter__operator-container counter__subcontainer" onClick={CountAddHandler}>
                 <img src={plusCounter} alt="count plus" />
             </button>
